@@ -1,0 +1,16 @@
+server:
+  port: 8088
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 300MB
+
+camunda.bpm:
+  admin-user:
+    id: demo
+    password: demo
+    firstName: Demo
+  filter:
+    create: All tasks
